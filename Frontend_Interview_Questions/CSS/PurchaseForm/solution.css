@@ -32,9 +32,9 @@
 }
 
 #wrapper {
+  border-radius: var(--wrapper-border-radius);
   padding: var(--wrapper-padding);
   background-color: var(--wrapper-background-color);
-  border-radius: var(--wrapper-border-radius);
 }
 
 ol {
@@ -61,7 +61,7 @@ ol li::before {
   justify-content: center;
   align-items: center;
   width: var(--circle-width);
-  height: var(--circle-height);
+  height: var(--circle-width);
   border-radius: 50%;
   border: var(--circle-border-width) solid black;
   margin: 0 auto var(--circle-bottom-margin) auto;
