@@ -54,7 +54,7 @@ ol li {
 }
 
 /* Number circle */
-ol li:before {
+ol li::before {
   counter-increment: list-items;
   content: counter(list-items);
   display: flex;
